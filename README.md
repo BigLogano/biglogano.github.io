@@ -1,7 +1,12 @@
-# Welcome to BigLogano's depository 👋
+# Welcome to Logan's depository 👋
 
-## Arsenal is winning the leauge
-### I'm currently working on a football database for predictive statistics.
+## Here are three of my favorite quotes!
 
 "If anything could ever be this real forever"  
--- Dave Grohl, 1997
+-- Dave Grohl
+
+"We have two lives; the second begins when we realise we only have one."  
+-- Confucius
+
+"You never really learn much from hearing yourself talk"  
+-- George Clooney
