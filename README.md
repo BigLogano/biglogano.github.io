@@ -7,6 +7,5 @@ an interactive to-do list platform
 - add a description field so you can describe the item being added
 - add tbe ability to edit items on the list
 
-[GitHub Page](biglogano.github.io)
 [ToDo List](todo.html)
 [Draggable List](Index.html)
