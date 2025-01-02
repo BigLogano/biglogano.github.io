@@ -105,9 +105,13 @@
   <h1>StoolStats</h1>
   <form id="bm-form">
     <p id="date"></p>
-    <script>
-      document.getElementById("date").innerHTML = new Date().toLocaleDateString();
-    </script>
+<script>
+  const now = new Date();
+  const date = now.toLocaleDateString();
+  const time = now.toLocaleTimeString();
+  document.getElementById("date").innerHTML = `${date}, ${time}`;
+</script>
+
 
     <label for="p_color">Select the Color:</label><br>
     <input type="color" id="p_color" value="#5C4033"><br><br>
