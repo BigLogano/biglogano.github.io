@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <title>Logan's Awesome Notes App</title>
+
+    <!-- USE VERSION 1.35.6 (UMD version) -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@1.35.6/dist/umd/supabase.min.js"></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <div>
+      <h2 style="text-align: center">Notepad App :)</h2>
+    </div>
+
+    <!-- Div tag for the whole form -->
+    <div id="notepad">
+      <form id="note-form" style="text-align: center">
+        <label for="title">Title: </label><br />
+        <input
+          type="text"
+          id="title"
+          placeholder="Enter a title here..."
+        /><br />
+
+        <label for="body">Body:</label><br />
+        <textarea id="body" placeholder="Enter a note here..."></textarea><br />
+        <input type="submit" id="submit" />
+      </form>
+    </div>
+
+    <!-- Current notes list (updating realtime) -->
+    <div>
+      <h3 style="text-align: center">Current Notes:</h3>
+      <ul style="text-align: center" id="notes-list"></ul>
+    </div>
+  </body>
+</html>

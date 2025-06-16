@@ -1,0 +1,38 @@
+#body {
+  height: 200px;
+  font-size: 10pt;
+  border: 3px solid black;
+  word-wrap: normal;
+  font-style: oblique;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#title {
+  border: 3px solid black;
+  font-style: oblique;
+  margin-bottom: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#submit {
+  background-color: darkgreen;
+  color: azure;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#notepad {
+  border: 3px solid black;
+  background-color: yellow;
+  padding: 20px;
+  margin: 20px auto;
+  width: fit-content;
+}
+
+li {
+  margin-bottom: 10px;
+  font-family: inherit;
+  list-style-type: none;
+}
